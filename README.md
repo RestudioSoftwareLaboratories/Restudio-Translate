@@ -1,3 +1,3 @@
 Links
 
-- Website: RestudioSoftwareLaboratories/Restudio-Translate
+- Website: https://restudiosoftwarelaboratories.github.io/Restudio-Translate/
