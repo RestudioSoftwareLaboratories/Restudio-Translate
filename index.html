@@ -363,7 +363,7 @@
                 <span class="material-icons">delete_sweep</span> Clear
             </button>
             <button class="tool-btn translate-btn" id="translateBtn">
-                <span class="material-icons">language_japanese_kana</span>Translate
+                <span class="material-icons">translate</span>Translate
             </button>
             <button class="tool-btn" id="swapBtn">
                 <span class="material-icons">swap_horiz</span> Swap
@@ -538,7 +538,7 @@
                 outputText.value = `Error: ${error.message}. Check your internet connection.`;
                 updateRightStats();
             } finally {
-                translateBtn.innerHTML = '<span class="material-icons">g_translate</span> Translate';
+                translateBtn.innerHTML = '<span class="material-icons">translate</span> Translate';
                 translateBtn.disabled = false;
             }
         }
